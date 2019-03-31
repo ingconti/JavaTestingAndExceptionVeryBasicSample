@@ -1,12 +1,0 @@
-
-^squid:S18543";Remove this useless assignment to local variable "average".(İ«Èøÿÿÿÿ8Ê¢‡˜-
-V
-squid:S106""9Replace this use of System.out or System.err by a logger.(Ñ÷Èí8ª™˜-
-Osquid:S14813",Remove this unused "average" local variable.(İ«Èøÿÿÿÿ8Ê¢‡˜-
-Msquid:S14812"/Remove this unused "nOfPlayers" local variable.(âŸ÷³8‚¢²˜-
-esquid:S00112!"FDefine and throw a dedicated exception instead of using a generic one.(ÃÈ¸À8ª™˜-
-esquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(üÿÜˆ8ª™˜-
-¤%squid:RedundantThrowsDeclarationCheck!"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÃÈ¸À8ùáš˜-
-U
-squid:S106"9Replace this use of System.out or System.err by a logger.(‹½‚<8Âœ›˜-
-xsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ñ„¡B8ó—-
