@@ -44,6 +44,7 @@ public class AppTest
 
     @Test(expected = ArithmeticException.class)
     // CUSTOMIZE your exception.
+    // here is correct, as at start no player.
     public void shouldAnswerWithTrueForException()
     {
         int fakeSumOfPoints  = g.sumOfPoints();
