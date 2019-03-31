@@ -46,6 +46,7 @@ public class AppTest
     // CUSTOMIZE your exception.
     public void shouldAnswerWithTrueForException()
     {
+        int fakeSumOfPoints  = g.sumOfPoints();
         float average = 100/g.nOfPlayers();
 
     }
