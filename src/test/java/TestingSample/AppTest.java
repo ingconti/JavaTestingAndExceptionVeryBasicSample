@@ -9,6 +9,11 @@ import org.junit.Test;
 /**
  * Unit test for simple App.
  */
+
+// pls read at:
+//       https://github.com/junit-team/junit4/wiki/Exception-testing
+
+
 public class AppTest 
 {
 
@@ -38,12 +43,12 @@ public class AppTest
 
 
     @Test(expected = ArithmeticException.class)
+    // CUSTOMIZE your exception.
     public void shouldAnswerWithTrueForException()
     {
 
         int nOfPlayers = 0;
         float average = 100/g.nOfPlayers();
 
-        assertTrue( true );
     }
 }
