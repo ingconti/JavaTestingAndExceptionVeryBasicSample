@@ -1,10 +1,10 @@
 package TestingSample;
 
-import static org.junit.Assert.assertTrue;
-
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
  * Unit test for simple App.
@@ -17,13 +17,13 @@ import org.junit.Test;
 public class AppTest 
 {
 
-    Game g;
+    TestingSample.Game g;
 
 
     @Before // setup()
     public void before() throws Exception {
         System.out.println("Running: setup");
-        g = new Game();
+        g = new TestingSample.Game();
 
     }
 
@@ -46,8 +46,6 @@ public class AppTest
     // CUSTOMIZE your exception.
     public void shouldAnswerWithTrueForException()
     {
-
-        int nOfPlayers = 0;
         float average = 100/g.nOfPlayers();
 
     }
