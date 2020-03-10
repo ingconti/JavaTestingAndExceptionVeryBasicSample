@@ -1,4 +1,5 @@
-# JavaFunctionalVeryBasicSample
+# 
+JavaTestingAndExceptionVeryBasicSample
 
 very basic sample about managin testing and exception.
 
